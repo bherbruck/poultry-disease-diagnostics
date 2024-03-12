@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Array of source directories
-SOURCE_DIRS=("./dataset/cocci" "./dataset/healthy" "./dataset/ncd" "./dataset/salmo")
+SOURCE_DIRS=("./dataset/field/cocci" "./dataset/field/healthy" "./dataset/field/ncd" "./dataset/field/salmo")
 
 # Directory to store the modified files
-TARGET_DIR="./dataset/images"
+TARGET_DIR="./dataset/field/images"
 
 # Create the target directory if it doesn't exist
 mkdir -p "$TARGET_DIR"
