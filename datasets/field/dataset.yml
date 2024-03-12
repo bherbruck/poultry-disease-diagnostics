@@ -1,0 +1,16 @@
+path: ./field
+
+images: images
+labels: labels
+
+train: ./autosplit_train.txt
+val: ./autosplit_val.txt
+test: ./utosplit_test.txt
+
+nc: 4
+
+names:
+  0: healthy
+  1: cocci
+  2: newcastle
+  3: salmonella
