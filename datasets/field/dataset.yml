@@ -4,8 +4,8 @@ images: images
 labels: labels
 
 train: ./autosplit_train.txt
-val: ./autosplit_val.txt
-test: ./utosplit_test.txt
+test: ./autosplit_val.txt
+val: ./autosplit_test.txt
 
 nc: 4
 
